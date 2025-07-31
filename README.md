@@ -110,26 +110,6 @@ npm run dev
 http://localhost:3000
 ```
 
-## 📁 Estructura del Proyecto
-
-```
-src/
-├── app/                    # App Router de Next.js
-│   ├── globals.css        # Estilos globales
-│   ├── layout.js          # Layout principal
-│   ├── page.js            # Página principal
-│   └── clients/           # Páginas de clientes
-│       ├── page.js        # Lista de clientes
-│       └── [id]/          # Detalle de cliente
-│           └── page.js
-├── components/            # Componentes React
-│   ├── Dashboard.js       # Dashboard principal
-│   ├── ClientList.js      # Lista de clientes
-│   └── ClienteForm.js     # Formulario de cliente
-└── services/              # Servicios de API
-    └── clienteService.js  # Servicio de clientes
-```
-
 ## 🔧 Funcionalidades
 
 ### Dashboard Principal (`/`)
@@ -219,15 +199,3 @@ La aplicación espera que tu API backend tenga estos endpoints:
 1. Verifica que el backend esté corriendo en `http://localhost:5000`
 2. Revisa los logs del servidor para errores
 3. Confirma que los endpoints estén implementados correctamente
-
-## 📝 Próximas Funcionalidades
-
-- [ ] Gestión de películas
-- [ ] Sistema de reservas
-- [ ] Autenticación de usuarios
-- [ ] Dashboard con estadísticas
-- [ ] Búsqueda y filtros avanzados
-
----
-
-¡Disfruta usando tu aplicación de gestión de cine! 🎬
