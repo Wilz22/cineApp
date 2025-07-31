@@ -181,8 +181,6 @@ La aplicación espera que tu API backend tenga estos endpoints:
   "id": 1,
   "nombre": "Juan Pérez",
   "email": "juan@ejemplo.com",
-  "telefono": "+34 123 456 789",
-  "direccion": "Calle Mayor 123, Madrid"
 }
 ```
 
